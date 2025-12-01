@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7563f13bb045a6c4e9b19b42a9a4bfa9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266776
+  packageName: ML-Agents Configuration UI
+  packageVersion: 1.1.0
+  assetPath: Assets/Xardas/ML-Agents Configuration/Configuration/Inspector/SettingsInspector.cs
+  uploadId: 623981

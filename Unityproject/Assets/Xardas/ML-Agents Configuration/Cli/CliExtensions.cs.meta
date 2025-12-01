@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4cb0ffa3be15e644b9de641d91c7dc92
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266776
+  packageName: ML-Agents Configuration UI
+  packageVersion: 1.1.0
+  assetPath: Assets/Xardas/ML-Agents Configuration/Cli/CliExtensions.cs
+  uploadId: 623981

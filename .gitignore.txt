@@ -1,0 +1,28 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# Auto-generated
+*.csproj
+*.sln
+*.user
+*.vs
+
+# ML-Agents results
+results/
+models/
+summaries/
+*.onnx
+
+# Python
+__pycache__/
+venv/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db

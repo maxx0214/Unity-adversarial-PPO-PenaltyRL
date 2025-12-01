@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: acdc7a337e5a5504c88a9f1ce572010d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266776
+  packageName: ML-Agents Configuration UI
+  packageVersion: 1.1.0
+  assetPath: Assets/Xardas/ML-Agents Configuration/LICENSE
+  uploadId: 623981

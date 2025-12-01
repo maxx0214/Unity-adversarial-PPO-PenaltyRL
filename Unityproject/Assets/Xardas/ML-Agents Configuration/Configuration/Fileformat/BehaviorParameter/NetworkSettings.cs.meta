@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f5dca42f263f9fc41bb8333891c29915
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266776
+  packageName: ML-Agents Configuration UI
+  packageVersion: 1.1.0
+  assetPath: Assets/Xardas/ML-Agents Configuration/Configuration/Fileformat/BehaviorParameter/NetworkSettings.cs
+  uploadId: 623981

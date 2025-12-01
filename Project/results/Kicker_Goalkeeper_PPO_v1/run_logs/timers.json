@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1764259888",
+        "python_version": "3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mks49\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\mlagents-learn config/ppo/Pong_adversarial.yaml --run-id=Kicker_Goalkeeper_PPO_v1 --force",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.9.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1764259901"
+    },
+    "total": 13.408826600003522,
+    "count": 1,
+    "self": 0.008442400023341179,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08543229999486357,
+            "count": 1,
+            "self": 0.08543229999486357
+        },
+        "TrainerController.start_learning": {
+            "total": 13.314951899985317,
+            "count": 1,
+            "self": 8.369999704882503e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 13.292535699991276,
+                    "count": 1,
+                    "self": 13.292535699991276
+                },
+                "TrainerController._save_models": {
+                    "total": 0.022332499996991828,
+                    "count": 1,
+                    "self": 3.9700011257082224e-05,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.022292799985734746,
+                            "count": 1,
+                            "self": 0.022292799985734746
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
