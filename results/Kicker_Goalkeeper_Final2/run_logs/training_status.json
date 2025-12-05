@@ -1,0 +1,52 @@
+{
+    "Behavior_K": {
+        "elo": 1199.0090368922702,
+        "checkpoints": [
+            {
+                "steps": 25090,
+                "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-25090.onnx",
+                "reward": null,
+                "creation_time": 1764928210.3765028,
+                "auxillary_file_paths": [
+                    "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-25090.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25090,
+            "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_K.onnx",
+            "reward": null,
+            "creation_time": 1764928210.3765028,
+            "auxillary_file_paths": [
+                "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-25090.pt"
+            ]
+        }
+    },
+    "Behavior_G": {
+        "checkpoints": [
+            {
+                "steps": 25090,
+                "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-25090.onnx",
+                "reward": null,
+                "creation_time": 1764928210.4707067,
+                "auxillary_file_paths": [
+                    "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-25090.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25090,
+            "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_G.onnx",
+            "reward": null,
+            "creation_time": 1764928210.4707067,
+            "auxillary_file_paths": [
+                "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-25090.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.7.1+cu118"
+    }
+}
