@@ -1,46 +1,46 @@
 {
     "Behavior_K": {
-        "elo": 1199.0090368922702,
+        "elo": 1200.0,
         "checkpoints": [
             {
-                "steps": 25090,
-                "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-25090.onnx",
+                "steps": 223995,
+                "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-223995.onnx",
                 "reward": null,
-                "creation_time": 1764928210.3765028,
+                "creation_time": 1765008692.4403107,
                 "auxillary_file_paths": [
-                    "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-25090.pt"
+                    "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-223995.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 25090,
+            "steps": 223995,
             "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_K.onnx",
             "reward": null,
-            "creation_time": 1764928210.3765028,
+            "creation_time": 1765008692.4403107,
             "auxillary_file_paths": [
-                "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-25090.pt"
+                "results\\Kicker_Goalkeeper_Final2\\Behavior_K\\Behavior_K-223995.pt"
             ]
         }
     },
     "Behavior_G": {
         "checkpoints": [
             {
-                "steps": 25090,
-                "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-25090.onnx",
+                "steps": 223995,
+                "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-223995.onnx",
                 "reward": null,
-                "creation_time": 1764928210.4707067,
+                "creation_time": 1765008692.3361566,
                 "auxillary_file_paths": [
-                    "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-25090.pt"
+                    "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-223995.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 25090,
+            "steps": 223995,
             "file_path": "results\\Kicker_Goalkeeper_Final2\\Behavior_G.onnx",
             "reward": null,
-            "creation_time": 1764928210.4707067,
+            "creation_time": 1765008692.3361566,
             "auxillary_file_paths": [
-                "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-25090.pt"
+                "results\\Kicker_Goalkeeper_Final2\\Behavior_G\\Behavior_G-223995.pt"
             ]
         }
     },

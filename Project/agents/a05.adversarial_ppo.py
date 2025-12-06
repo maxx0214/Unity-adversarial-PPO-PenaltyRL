@@ -34,7 +34,7 @@ save_interval = 100
 game = "Pong"
 os_name = platform.system()
 if os_name == 'Windows':
-    env_name = f"../envs/{game}_{os_name}/{game}"
+    env_name = r"C:\Users\user\Desktop\PenaltyRL\Project\envs\Pong_Windows\Pong.exe"
 elif os_name == 'Darwin':
     env_name = f"../envs/{game}_{os_name}"
 
