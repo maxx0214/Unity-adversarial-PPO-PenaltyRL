@@ -99,7 +99,6 @@ PPO 학습이 즉시 시작됨.
 
 | idx | 관측값 |
 |-----|--------|
-| 0 | GK X-pos |
 | 1 | GK Z-pos |
 | 2 | Kicker X-pos |
 | 3 | Kicker Z-pos |
@@ -133,7 +132,7 @@ PPO 학습이 즉시 시작됨.
 
 - Rigidbody 기반 이동  
 - 공 속도 최소값 필터 적용  
-- 공이 골라인(x < –10.5 or x > 10.5)을 통과하면 episode 종료  
+- 공이 골라인(x < –10.5 or x > 0.01)을 통과하면 episode 종료  
 - MaxEnvironmentSteps 초과하면 강제 종료  
 
 ---
@@ -150,17 +149,16 @@ PPO 학습이 즉시 시작됨.
 ### 3) 득점/실점 Outcome Reward  
 (출처: EnvController.cs)
 
-### 골키퍼 골대(x < –10.5)  
+### Kicker 공격 성공 (x < –10.5)  
 | Agent | Reward |
 |-------|--------|
-| Kicker | –1 |
-| Keeper | +1 |
+| Kicker | + |
+| Keeper | -10 |
 
-### 스트라이커 골대(x > 10.5)  
+### Goalie 방어 성공(x > 0.0001)  
 | Agent | Reward |
 |--------|--------|
-| Kicker | +1 |
-| Keeper | –1 |
+| Keeper | +10 |
 
 득점/실점 시:
 - 두 Agent 모두 EndEpisode() 호출  
@@ -198,6 +196,8 @@ PPO 학습이 즉시 시작됨.
 하이퍼파라미터:
 
 ```
+beta = 3
+epsilon = 0.03
 learning_rate = 5e-4
 gamma = 0.99
 lambda = 0.95
