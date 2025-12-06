@@ -152,7 +152,7 @@ PPO 학습이 즉시 시작됨.
 ### Kicker 공격 성공 (x < –10.5)  
 | Agent | Reward |
 |-------|--------|
-| Kicker | + |
+| Kicker | +10 |
 | Keeper | -10 |
 
 ### Goalie 방어 성공(x > 0.0001)  
