@@ -1,5 +1,5 @@
 #  Penalty Shootout Reinforcement Learning Project  
-## 승부차기 강화학습 프로젝트 (Unity ML-Agents + Self-Play PPO)
+## 승부차기 강화학습 프로젝트 (Unity ML-Agents + adversarial PPO)
 
 ---
 
@@ -10,7 +10,7 @@
 **Self-Play Penalty Shootout 강화학습 환경**을 구축하는 것을 목표로 한다.
 
 This project implements a **Zero-sum, multi-agent penalty shootout RL environment** built with  
-**Unity ML-Agents + Python PPO (Self-Play)**.
+**Unity ML-Agents + Python PPO **.
 
 Unity는 실제 축구 승부차기처럼 물리 기반 공 이동 및 에이전트 이동을 시뮬레이션하며,  
 Python PPO는 두 에이전트(Kicker / Keeper)의 정책을 반복적으로 개선한다.
@@ -215,7 +215,7 @@ Config 파일:
 # 8. 결론 및 향후 연구 방향 (Conclusion & Future Work)
 
 본 프로젝트는 강화학습 기반 승부차기 환경을 구축하고  
-Striker–Keeper Self-play를 통해 경쟁적 정책 학습이 가능함을 보였다.
+Striker–Keeper 경쟁적 정책 학습이 가능함을 보였다.
 
 향후 확장:
  
