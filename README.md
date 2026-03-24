@@ -5,7 +5,6 @@
 
 # 1. 프로젝트 개요 (Project Overview)
 [![Demo Video](https://img.youtube.com/vi/yH18RyVO6G8/hqdefault.jpg)](https://youtu.be/yH18RyVO6G8)
-(썸네일 클릭해서 영상 시청가능)
 본 프로젝트는 Unity ML-Agents와 PyTorch PPO를 기반으로  
 **스트라이커(Kicker)** 와 **골키퍼(Goalkeeper)** 가 경쟁하는  
 **Self-Play Penalty Shootout 강화학습 환경**을 구축하는 것을 목표로 한다.
