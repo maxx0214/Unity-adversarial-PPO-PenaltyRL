@@ -233,7 +233,7 @@ Striker–Keeper 경쟁적 정책 학습이 가능함을 보였다.
 - 과목명: 강화학습(Reinforcement Learning)
 - 제출자: 노재형, 문경수, 이승윤
 - 기간: 2025학년도  
-- 목적: 학습 환경 구축 및 Self-Play PPO 성능 분석  
+- 목적: 학습 환경 구축 및 adversarial PPO 성능 분석  
 
 ---
 
